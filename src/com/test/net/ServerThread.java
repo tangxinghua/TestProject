@@ -9,7 +9,9 @@ package com.test.net;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 
@@ -17,7 +19,7 @@ import java.net.Socket;
  * @ClassName: ServerThread
  * @Description: TODO
  */
-public class ServerThread {
+public class ServerThread extends Thread {
 
 	Socket socket = null;
 
@@ -80,4 +82,5 @@ public class ServerThread {
 		}
 
 	}
+
 }

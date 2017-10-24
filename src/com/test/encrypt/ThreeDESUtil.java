@@ -7,6 +7,7 @@
  */
 package com.test.encrypt;
 
+import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 import java.security.Security;
 import java.security.spec.InvalidKeySpecException;
